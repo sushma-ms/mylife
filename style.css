@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title h1{
+    text-align: center;
+    font-size: 100px;
+    color: orangered;
+}
+
+header{
+    background-image: url(/assets/rakhi.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+ul{
+    float: top;
+    list-style-type: square;
+    margin-top: 80px;
+}
+
+ul li{
+    display: inline;
+}
+
+ul li a{
+    text-decoration: none ;
+    color: plum;
+    padding: 5px 20px;
+    border: 1px solid brown;
+}
+
+ul li a:hover{
+    background-color: pink;
+    color: red;
+}
+
+.main{
+    color: darkblue;
+    size: 50px;
+
+}
